@@ -1,6 +1,11 @@
 site_title = "MyArxiv"
-limit_days = 7
+limit_days = 15
 cache_url = "https://marsha1147.github.io/MyArXiv/cache.json"
+
+[[sources]]
+limit = 150
+category = "cs.AI"
+title = "Artificial Intelligence"
 
 [[sources]]
 limit = 150
@@ -14,11 +19,6 @@ title = "Computer Vision and Pattern Recognition"
 
 [[sources]]
 limit = 150
-category = "cs.IR"
-title = "Information Retrieval"
-
-[[sources]]
-limit = 150
 category = "cs.LG"
 title = "Machine Learning"
 
@@ -26,6 +26,12 @@ title = "Machine Learning"
 limit = 150
 category = "cs.MM"
 title = "Multimedia"
+
+[[sources]]
+limit = 150
+category = "cs.NA"
+title = "Numerical Analysis"
+
 
 [scripts]
 highlight_title = "scripts/highlight_title.rhai"
